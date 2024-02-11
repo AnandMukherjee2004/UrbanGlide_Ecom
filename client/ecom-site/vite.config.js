@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
-import vitePluginRequire from "vite-plugin-require";
+import vitePluginRequire from "vite-plugin-require"; // Import vitePluginRequire directly
+
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
@@ -7,5 +8,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ["stripe"], // Include CommonJS modules used by Strapi
   },
-  plugins: [vitePluginRequire.default(), react()],
+  plugins: [vitePluginRequire(), react()], // Use vitePluginRequire directly without .default()
 });
