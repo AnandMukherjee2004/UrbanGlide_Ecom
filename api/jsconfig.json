@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ES2021",
+    "checkJs": true,
+    "allowJs": true
+  },
+  "strapi": {
+    "type": "commonjs"
+    // other configurations...
+  }
+}

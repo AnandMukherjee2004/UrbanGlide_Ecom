@@ -1,0 +1,8 @@
+@font-face {
+  font-family: hnmFont;
+  src: url("./assets/HMSansLatin-Regular.ttf");
+}
+
+body{
+  font-family: hnmFont;
+}
